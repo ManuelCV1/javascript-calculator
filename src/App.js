@@ -52,6 +52,7 @@ function App() {
   }
 
   const op = (count) =>{
+    // eslint-disable-next-line
     const result = eval(count);
     setDisplayCount(result.toString());
     setDisplayResult(result);
